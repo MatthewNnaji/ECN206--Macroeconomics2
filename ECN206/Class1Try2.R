@@ -25,12 +25,12 @@ glimpse(UKData)
 
 
 timeGDPplot1 <- UKData %>%
-  ggplot() + geom_line(mapping=aes(x=Year,y=RGDP),colour='steelblue') + 
+  ggplot() + geom_line(mapping=aes(x=Year,y=RGDPCapita),colour='steelblue') + 
   labs(title='Real GDP, 1953-2023',y='Real GDP, 2021 prices (US$)')
 print(timeGDPplot1)
 
 timeGDPplot2 <- UKData %>%
-  ggplot() + geom_line(mapping=aes(x=Year,y=RGDP),colour='royalblue4') + 
+  ggplot() + geom_line(mapping=aes(x=Year,y=RGDPCapita),colour='royalblue4') + 
   scale_y_continuous(transform='log10') +
   labs(title='Real GDP (log scale), 1953-2023',y='Real GDP, 2021 prices (US$)')
 print(timeGDPplot2)
