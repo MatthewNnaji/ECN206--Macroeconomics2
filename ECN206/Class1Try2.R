@@ -35,6 +35,6 @@ timeGDPplot2 <- UKData %>%
   labs(title='Real GDP (log scale), 1953-2023',y='Real GDP, 2021 prices (US$)')
 print(timeGDPplot2)
    
-timeGDPplot1+timeGDPplot2
+print(timeGDPplot1+timeGDPplot2)
 #patchwork function allows me to print 2 simultaneously
 
