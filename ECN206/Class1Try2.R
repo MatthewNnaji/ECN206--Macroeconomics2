@@ -36,3 +36,5 @@ timeGDPplot2 <- UKData %>%
 print(timeGDPplot2)
    
 timeGDPplot1+timeGDPplot2
+#patchwork function allows me to print 2 simultaneously
+
